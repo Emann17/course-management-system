@@ -5,9 +5,9 @@ This system supports multiple user roles (Student, Instructor, Admin) and provid
 
 ---
 
-## 🚀 Features
+## Features
 
-### 👨‍🎓 Student
+### Student
 - Search courses with filters (keyword, category, price range)
 - Enroll in courses with payment validation
 - View enrolled courses and track progress
@@ -15,19 +15,19 @@ This system supports multiple user roles (Student, Instructor, Admin) and provid
 - View certificates upon course completion
 - Access payment history
 
-### 👨‍🏫 Instructor
+### Instructor
 - View and manage assigned courses
 - Update course details (price, pass grade, max students)
 - Override enrollment limits to add students manually
 - View course statistics (enrollment, completion rate, average grades)
 
-### 🛠️ Admin
+### Admin
 - View top 5 courses by enrollment
 - Analyze payment counts per course
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 - Language: Python  
 - Database: SQLite  
@@ -35,7 +35,7 @@ This system supports multiple user roles (Student, Instructor, Admin) and provid
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 main.py        # Entry point (login + registration)  
 student.py     # Student functionalities  
@@ -44,7 +44,7 @@ admin.py       # Admin functionalities
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 1. Clone the repository:
 
@@ -56,7 +56,7 @@ python main.py prj.db
 
 ---
 
-## 🔑 Sample Login Credentials
+## Sample Login Credentials
 
 Student  
 UID: 1  
@@ -72,7 +72,7 @@ Password: admin123
 
 ---
 
-## 📌 Key Concepts Implemented
+## Key Concepts Implemented
 
 - Role-based access control  
 - Relational database design  
@@ -82,7 +82,7 @@ Password: admin123
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 
 - Add GUI or web interface  
 - Implement password hashing  
@@ -91,7 +91,7 @@ Password: admin123
 
 ---
 
-## 👤 Author
+## Author
 
 Ope Odubela  
 Software Engineering Student @ University of Alberta
